@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+
+/** Navbar Section **/
+
+
 .navbar{
     height: 60px;
     color: white;
@@ -45,13 +49,14 @@
 
 .add-first{
     color: #cccccc;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     margin-left: 15px;
 }
 
 .add-sec{
-    font-size: 1rem;
+    font-size: 0.90rem;
     margin-left: 3px;
+    font-weight: 700;
 }
 
 .add-icon{
@@ -64,7 +69,7 @@
 /* box3 */
 
 .nav-search{
-     width: 600px;
+     width: 1000px;
      height: 40px;
      display: flex;
      justify-content: space-evenly;
@@ -73,7 +78,7 @@
 }
 
 .nav-search:hover{
-    border: 3px solid rgb(236, 197, 56);
+    border: 3px solid #ff9900;
     border-radius: 4px;
 }
 
@@ -97,7 +102,7 @@
     width: 50px;
     font-size: 1.3rem;
     color: #0f1111;
-    background-color: rgb(236, 197, 56);
+    background-color: #ff9900;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -136,7 +141,7 @@
 }
 
 
-/* box4 */
+/* box5 */
 
 .nav-login{
     width: 150px;
@@ -162,14 +167,14 @@
 }
 
 
-/* box5 */
+/* box6 */
 
 .nav-return{
     width: 80px;
 }
 
 
-/* box6 */
+/* box7 */
 
 .nav-cart{
     width: 70px;
@@ -189,6 +194,56 @@
 }
 
 
+
+
+
+
+/** Panel Section **/
+
+/* box1 */
+
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center; 
+    color: white;
+    
+}
+
+.panel-all i{
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.panel-all{
+    /* width: 60px; */
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panel-items {
+    width: 80%;
+    font-size: 14px;
+    display: flex;
+}
+
+.panel-div{
+     height: 35px;
+     margin-left: 10px; 
+     display: flex;
+     align-items: center; 
+}
+
+.panel-div a{
+    text-decoration: none;
+    color: white;
+}
+
+.panel-sec{
+     font-weight: 700;
+}
 
 
 
